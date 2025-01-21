@@ -1,9 +1,6 @@
 from api.models.actor import Actor
 from api.schemas import ma
 
-
-
-
 class ActorSchema(ma.SQLAlchemyAutoSchema):
 
     class Meta:
